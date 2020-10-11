@@ -54,7 +54,7 @@ PM_START_TEXT = """
 Hi {}, ako si {}! 
 Ang pinakamagandang bot sa balat ng telegram.
 Ako ay nasa pangangalaga ng aking tatay na si @Jeeeypi
-Para sa iba pang mga katanunga gamitin lang ang /help.
+Para sa iba pang mga katanungan gamitin lang ang /help.
 """
 
 HELP_STRINGS = """
@@ -198,7 +198,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/cassie_updates")
+                             url="https://t.me/cassie_channel")
                      ],
                      [
                          InlineKeyboardButton(
