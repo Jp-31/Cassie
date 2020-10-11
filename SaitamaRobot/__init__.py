@@ -87,7 +87,7 @@ if ENV:
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
-    AI_API_KEY = os.environ.get('AI_API_KEY', 8816413e4ee076088cafbade01851d326ed384607e5773b23ddcab692736d9b6bf1b69a215ce46dc3b31db3eda5085f04edd5c5d99727bac4ba0c9707a8f6d9b)
+    AI_API_KEY = os.environ.get('AI_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
